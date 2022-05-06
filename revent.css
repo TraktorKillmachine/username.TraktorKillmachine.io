@@ -4960,6 +4960,7 @@ html{
 
 	.services_box_h3 {
 		font-size: 24px;
+		min-height: 70px;
 	}
 
 }
