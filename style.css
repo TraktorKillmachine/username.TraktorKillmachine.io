@@ -153,13 +153,15 @@ section:first-child {
     background: linear-gradient(140deg, #F64141 30%, #a02d2d9a 60%, #00000000 80%);
     border-radius: 25px;
     height: 100%;
+    width: 100%;
+    max-width: 407px;
 }
 
 .GamePackages_container_item {
     margin: 10px 10px 10px 10px;
     background: radial-gradient(#5A1E1E, #1A1010);
     border-radius: 15px;
-}
+height: 100%;min-height: 190px;}
 
 .GamePackages_container_item_box {
     padding-left: 14px;
@@ -222,6 +224,10 @@ section:first-child {
     width: 100%;
 }
 
+.vip_container_item_box .item_btn{
+    padding: 0;
+}
+
 .item_btn_link {
     text-decoration: none;
     font-size: 24px;
@@ -250,29 +256,32 @@ section:first-child {
     row-gap: 70px;
 }
 
+.services .services_container .GamePackages_container_m1 {
+    min-height: 212px;
+}
+
 .services_container_item_box {
     display: flex;
     align-items: center;
-    margin-right: 36px;
-    margin-left: 21px;
     max-height: 201px;
+    height: 100%;
 }
 
 .services_box {
-    max-width: 200px;
-}
+    width: 100%;max-width: 200px;
+height: 100%;}
 
 .services_box_h3 {
     font-size: 30px;
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 5%;
 }
 
 .services_box_p {
     font-size: 14px;
     color: #CABABA;
-    margin-bottom: 30px;
-}
+    margin-bottom: 5%;
+width: 100%;}
 
 .services_box_price {
     font-size: 18px;
