@@ -42,7 +42,7 @@ section:first-child {
 
 .input_box {
     max-width: 582px;
-    background: linear-gradient(180deg, #281717, #602423);
+    background: hsla(0,0%,100%,.3);
     border-radius: 40px;
 }
 
@@ -73,7 +73,7 @@ section:first-child {
 }
 
 .input_box_item_p {
-    color: #B5A7A7;
+    color: #fff;
 }
 
 .input_box_item_link {
@@ -81,7 +81,7 @@ section:first-child {
 }
 
 .input_box_input {
-    background: #1D1010;
+    background: #fff;
     border-style: none;
     outline-style: none;
     width: 100%;
@@ -149,7 +149,7 @@ section:first-child {
 
 .GamePackages_container_m1 {
     position: relative;
-    background: linear-gradient(140deg, #F64141 30%, #a02d2d9a 60%, #00000000 80%);
+    /* background: linear-gradient(140deg, #F64141 30%, #a02d2d9a 60%, #000000 80%); */
     border-radius: 25px;
     height: 100%;
     width: 100%;
@@ -158,9 +158,11 @@ section:first-child {
 
 .GamePackages_container_item {
     margin: 10px 10px 10px 10px;
-    background: radial-gradient(#5A1E1E, #1A1010);
+    background: hsla(0,0%,100%,.3);
     border-radius: 15px;
-height: 100%;min-height: 190px;}
+    height: 100%;
+    min-height: 190px;
+border: 10px solid #cd5c5c;}
 
 .GamePackages_container_item_box {
     padding-left: 14px;
