@@ -2,6 +2,7 @@
     margin: 0 auto;
     font-family: 'Ubuntu', sans-serif;
     color: #fff;
+    text-shadow: 0 2px 0 rgb(0 0 0 / 21%);
 }
 
 ul {
@@ -149,7 +150,6 @@ section:first-child {
 
 .GamePackages_container_m1 {
     position: relative;
-    /* background: linear-gradient(140deg, #F64141 30%, #a02d2d9a 60%, #000000 80%); */
     border-radius: 25px;
     height: 100%;
     width: 100%;
@@ -290,7 +290,6 @@ border: 10px solid #cd5c5c;}
 
 .services_box_p {
     font-size: 14px;
-    color: #CABABA;
     margin-bottom: 5%;
     width: 100%;
 }
