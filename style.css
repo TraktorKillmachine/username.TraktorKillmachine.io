@@ -102,8 +102,8 @@ section:first-child {
     background: #F64141;
     border-style: none;
     margin: 9px 0px 0px;
-    border-radius: 25px;
-    padding: 5%;
+    border-radius: 23px;
+    padding: 12px;
     width: 100%;
 }
 
@@ -204,7 +204,7 @@ section:first-child {
     margin: 9px 0px 0px;
     border-radius: 15px;
     margin-top: 30px;
-    padding: 5%;
+    padding: 13px;
     width: 100%;
 }
 
@@ -324,5 +324,5 @@ img.item_box_img {
 }
 
 .vip_container_item_box .item_btn_link {
-    padding: 21px 22px 20px;
+    padding: 13px 22px 13px;
 }
