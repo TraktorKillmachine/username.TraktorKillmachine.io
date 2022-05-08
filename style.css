@@ -80,6 +80,7 @@ section:first-child {
 
 .input_box_item_link {
     color: #F64141;
+    text-shadow: 1px 0 rgb(0 0 0 / 21%);
 }
 
 .input_box_input {
@@ -92,6 +93,7 @@ section:first-child {
     font-size: 18px;
     padding-left: 30px;
     padding-right: 30px;
+    text-shadow: 1px 0 rgb(0 0 0 / 21%);
 }
 
 .btn {
