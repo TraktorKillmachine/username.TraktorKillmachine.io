@@ -20,6 +20,9 @@ a:hover {
 
 body {
     background-color: #B04647;
+}
+
+main {
     background: url(/username.traktorKillmachine.io/img/bg.png) no-repeat top fixed;
     background-size: cover;
     background-blend-mode: darken;
@@ -65,6 +68,10 @@ section:nth-child(2) {
     font-size: 18px;
     font-weight: 300;
     margin-bottom: 20px;
+}
+
+.input_box_item_p {
+    margin: 0;
 }
 
 .input_box_item:first-child {
