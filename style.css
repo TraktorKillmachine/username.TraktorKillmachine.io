@@ -19,6 +19,7 @@ a:hover {
 }
 
 body {
+    background-color: #B04647;
     background: url(/username.traktorKillmachine.io/img/bg.png) no-repeat top fixed;
     background-size: cover;
     background-blend-mode: darken;
