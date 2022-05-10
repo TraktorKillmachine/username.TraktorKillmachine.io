@@ -143,11 +143,11 @@ section:nth-child(2) {
 }
 
 .p_title::before {
-    left: -30px;
+    left: -15px;
 }
 
 .p_title::after {
-    right: -30px;
+    right: -15px;
 }
 
 .GamePackages_container_item {
