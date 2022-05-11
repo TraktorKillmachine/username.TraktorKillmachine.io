@@ -2,7 +2,7 @@
     margin: 0 auto;
     font-family: 'Ubuntu', sans-serif;
     color: #fff;
-    text-shadow: 0 2px 0 rgb(0 0 0 / 21%);
+    text-shadow: 0 1px 0 rgb(0 0 0 / 21%);
 }
 
 ul {
@@ -33,6 +33,10 @@ section {
 }
 
 section:first-child {
+    margin-bottom: 0px;
+}
+
+section:last-child {
     margin-bottom: 0px;
 }
 
@@ -273,7 +277,6 @@ section:nth-child(2) {
     height: 100%;
 }
 
-
 .services_box_h3 {
     margin-top: 15px;
     margin-bottom: 5%;
@@ -351,6 +354,61 @@ img.item_box_img {
 
 .vip_container_item_box .item_btn_link {
     padding: 13px 22px 13px;
+}
+
+.modal-content {
+    box-shadow: 0px 0px 10px #000;
+    color: #000;
+}
+
+.modal-body .container .row .col {
+    border: 1px solid silver;
+    margin: 10px 20px;
+    background-color: rgb(155, 154, 154);
+    color: rgb(83, 83, 83);
+    text-shadow: none;
+}
+
+.modal_p {
+    color: #000;
+    margin: 0;
+}
+
+.modal_btn {
+    font-size: 24px;
+    border: none;
+    color: #fff;
+    background: #F64141;
+    width: 50%;
+    padding: 20px 0;
+    margin: 20px 25% 0;
+}
+
+.modal_title {
+    font-size: 32px;
+    color: #000;
+    margin: 0;
+}
+
+.pay__icon__visa {
+    height: 1.4vh;
+}
+
+.modal-body .container .row .col .container {
+    padding: 5px;
+}
+
+.modal-body .container .row .col .container .qwe {
+    margin-top: 5px;
+    align-items: center;
+}
+
+.pay__icon__visa {
+    margin: 0 5px 0 0;
+}
+
+.modal-content.bg-white.modal_box {
+    border-radius: 24px;
 }
 
 @media (min-width:576px){
