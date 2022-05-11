@@ -99,6 +99,10 @@ section:nth-child(2) {
     text-shadow: 1px 0 rgb(0 0 0 / 21%);
 }
 
+.input_box_item_link:hover {
+    color: #F64141;
+}
+
 .input_box_input {
     background: #fff;
     border-style: none;
