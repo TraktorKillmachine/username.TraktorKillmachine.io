@@ -125,6 +125,10 @@ section:nth-child(2) {
     font-weight: 500;
 }
 
+.btn:hover {
+    background: #F64141;
+}
+
 .input_box_btn {
     padding-bottom: 65px;
 }
