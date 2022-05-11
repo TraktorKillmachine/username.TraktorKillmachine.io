@@ -274,7 +274,7 @@ section:nth-child(2) {
 .shop::before {
     position: absolute;
     content: '';
-    background: url(/img/shop.svg);
+    background: url(/username.traktorKillmachine.io/img/shop.svg);
     width: 30px;
     height: 30px;
     background-repeat: no-repeat;
